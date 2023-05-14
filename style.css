@@ -9,7 +9,8 @@
 body {
   min-width: 400px;
   line-height: 27px;
-  background-image: url("images/background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/background.jpg");
   background: cover;
   background-size: 500px 600px;
 }
@@ -89,7 +90,6 @@ body {
   transition: 0.5s;
   display: block;
   margin: auto;
-  text-shadow: white 0px 0px 2px;
 }
 
 #clear-btn:hover {
