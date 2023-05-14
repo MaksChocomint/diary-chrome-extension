@@ -1,144 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap");
 
 * {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 7px;
-    border-radius: 3px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  border-radius: 3px;
 }
 body {
-    min-width: 400px;
-    line-height: 27px;
-    background-image: url("images/background.jfif");
-    background: cover;
-    background-size: 500px 600px;
+  min-width: 400px;
+  line-height: 27px;
+  background-image: url("images/background.jpg");
+  background: cover;
+  background-size: 500px 600px;
 }
 
-.nofap_block, .healthy_food_block, .gym_block, .running_block, .biomechanics_block, .sleep_block, .programming_block, .reading_block {
-    display: flex;
-    justify-content: space-between;
+.meditation_block,
+.healthy_food_block,
+.gym_block,
+.running_block,
+.biomechanics_block,
+.sleep_block,
+.programming_block,
+.reading_block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .text {
-    margin: 0px;
+  margin: 0px;
 }
 
 .healthy_stats {
-    border: 1px solid black;
-    min-width: 180px;
-    padding: 5px;
-    background: rgb(170, 252, 137);
-    opacity: .7;
-    transition: .5s;
+  border: 1px solid black;
+  min-width: 180px;
+  padding: 5px;
+  background: rgb(170, 252, 137);
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .healthy_stats:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .activity_stats {
-    border: 1px solid black;
-    min-width: 180px;
-    padding: 5px;
-    background: rgb(252, 240, 137);
-    opacity: .7;
-    transition: .5s;
+  border: 1px solid black;
+  min-width: 180px;
+  padding: 5px;
+  background: rgb(252, 240, 137);
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .activity_stats:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .business_stats {
-    border: 1px solid black;
-    min-width: 180px;
-    padding: 5px;
-    background: rgb(162, 189, 247);
-    opacity: .7;
-    transition: .5s;
+  border: 1px solid black;
+  min-width: 180px;
+  padding: 5px;
+  background: rgb(162, 189, 247);
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .business_stats {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .business_stats:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 #clear-btn {
-    min-width: 400px;
-    padding: 10px 40px;
-    font-size: 20px;
-    border: none;
-    background: linear-gradient(45deg, rgb(62, 74, 241), rgba(212, 8, 253, 0.685));
-    margin: 0;
-    opacity: .7;
-    transition: .5s;
-    display: block;
-    margin: auto;
-    text-shadow: white 0px 0px 2px;
+  min-width: 400px;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  background: linear-gradient(
+    45deg,
+    rgb(62, 74, 241),
+    rgba(212, 8, 253, 0.685)
+  );
+  margin: 0;
+  opacity: 0.7;
+  transition: 0.5s;
+  display: block;
+  margin: auto;
+  text-shadow: white 0px 0px 2px;
 }
 
 #clear-btn:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 #clear-btn:active {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .lvl {
-    border: 1px solid black;
-    min-width: 180px;
-    padding: 10px;
-    background: rgb(255, 255, 255);
-    opacity: .8;
-    transition: .5s;
+  border: 1px solid black;
+  min-width: 180px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 #lvl-bar {
-    width: 100%;
+  width: 100%;
 }
 
 .healthy_stats .plus {
-    font-size: 20px;
-    margin: 0;
-    transition: .1s;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    display: block;
-    background: linear-gradient(45deg, yellow, green);
+  font-size: 20px;
+  margin: 0;
+  transition: 0.1s;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: block;
+  background: linear-gradient(45deg, yellow, green);
 }
 
 .activity_stats .plus {
-    font-size: 20px;
-    margin: 0;
-    transition: .1s;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    display: block;
-    background: linear-gradient(45deg, rgb(236, 74, 34), rgb(247, 228, 57));
+  font-size: 20px;
+  margin: 0;
+  transition: 0.1s;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: block;
+  background: linear-gradient(45deg, rgb(236, 74, 34), rgb(247, 228, 57));
 }
 
 .business_stats .plus {
-    font-size: 20px;
-    margin: 0;
-    transition: .1s;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    display: block;
-    background: linear-gradient(45deg, rgb(166, 130, 201), rgb(13, 228, 243));
+  font-size: 20px;
+  margin: 0;
+  transition: 0.1s;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: block;
+  background: linear-gradient(45deg, rgb(166, 130, 201), rgb(13, 228, 243));
 }
 
 .plus:hover {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .plus:active {
-    opacity: .5;
+  opacity: 0.5;
 }
-
