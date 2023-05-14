@@ -19,7 +19,8 @@ body {
 .gym_block,
 .running_block,
 .biomechanics_block,
-.sleep_block,
+.modeling_block,
+.walking_block,
 .programming_block,
 .reading_block {
   display: flex;
